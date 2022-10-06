@@ -4,7 +4,7 @@ rm rocklinux_repo*
 
 echo "repo-add"
 repo-add -s -n -R rocklinux_repo.db.tar.gz *.pkg.tar.zst
-
+repo-add -s -n -R rocklinux_repo.db.tar.gz *.pkg.tar.xz
 sleep 1
 
 rm rocklinux_repo.db
